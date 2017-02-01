@@ -40,7 +40,7 @@ Information on checkout links, and how to pass your users ID via the passthrough
 Subscriptions can have a few different statuses in your `subscriptions` database table.
 
 * **trialing**: The user is in their 'trial period'.
-* **active**: The users subscription is 'active' and their payments are up-to-date.
+* **active**: The user's subscription is 'active' and their payments are up-to-date.
 * **past_due**: The subscription is still active, but we're having trouble billing the user. You decide how you want to handle this situation, either continuing to give the user access, or waiting until their subscription moves back into the 'active' state.
 * **cancelled**: The subscription has been cancelled.
 
